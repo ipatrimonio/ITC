@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #22314E; 
+            color: #FFFFFF;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: #FFFFFF;
+            background-color: #22314E;
+            border: 2px solid #FFBB00;
+            border-radius: 5px;
+            padding: 20px;
+            font-size: 1.2em;
+            transition: all 0.3s ease;
+            height: 100px;
+            text-align: center;
+        }
+
+        a:hover {
+            background-color: #FFBB00;
+            color: #22314E;
+        }
+    </style>
+</head>
+<body>
+    <h1>Home Page</h1>
+
+    <div class="grid-container">
+        <a href="proj1.html">Unit Calculator</a>
+        <a href="proj2.html">Simple Payroll</a>
+        <a href="proj3.html">Calculator</a>
+        <a href="proj4.html">Tax Calculator</a>
+    </div>
+</body>
+</html>
+
